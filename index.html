@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head   class="bg-red-400 ">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./dist/output.css"><link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  
+
+  
+<nav  class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 fixed w-screen   rounded dark:bg-gray-900 drop-shadow-2xl">
+  <div class="container flex flex-wrap justify-between items-center mx-auto ">
+    <a href="https://flowbite.com/" class="flex items-center">
+        <img src="/images/Elvis 3.png" class="mr-3 h-10 sm:h-9 rounded-lg ml-16" alt="Elvis">
+        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-black animate__animated  animate__bounce bg-repeat-2">Elvis Edeh</span>
+    </a>
+    <button id="hamburger"  data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-3 ml-3 text-sm text-gray-500 rounded-lg md:hidden  hover:bg-gray-100 focus:outline-none focus:ring-2 dark:text-gray-400 " aria-controls="navbar-default" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+    </button>
+    <div  id="menu"  class="hidden w-full md:block md:w-auto " id="navbar-default">
+      <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 text-sm md:text-xl lg:text-2xl rounded md:bg-transparent hover:text-red-700 md:p-0 dark:text-black capitalize" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#about" smooth class="block py-2 pr-4 pl-3 text-gray-700 rounded text-sm md:text-xl lg:text-2xl hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-red-700 md:hover:text-blue-700 md:p-0  md:dark:hover:text-white capitalize  dark:hover:text-white md:dark:hover:bg-transparent ">About</a>
+        </li>
+        <li>
+          <a href="#projects" smoothed class="block py-2 pr-4 pl-3   text-gray-700 rounded text-sm md:text-xl lg:text-2xl hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-red-700 md:hover:text-blue-700 md:p-0  md:dark:hover:text-white capitalize  dark:hover:text-white md:dark:hover:bg-transparent">Project</a>
+        </li>
+        <li>
+          <a href="#contact" smooth class="block py-2 pr-4 pl-3 text-gray-700 rounded text-sm md:text-xl lg:text-2xl hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-red-700 md:hover:text-blue-700 md:p-0  md:dark:hover:text-white capitalize dark:hover:text-white md:dark:hover:bg-transparent">contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+</head>
+<body>
+ <section class="main-container  flex bg-fixed">
+  <!-- social media section --------------------------------------------------------------------------->
+  <div class="social-media animate__animated animate__slideInDown    p-2 w-10 bg-white drop-shadow-xl h-full  justify-center  text-center grid gap-5  ">
+    <a  href="https://www.facebook.com/flykhaly"> <svg 
+    class="w-8 h-8 text-black fill-current mt-20"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24">
+    <path
+      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+    />
+  </svg></a>
+ <a href="#"> <svg
+  class="w-8 h-8 text-black fill-current"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24">
+  <path
+    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+  />
+</svg></a>
+<a href="https://www.linkedin.com/in/elvis-edeh-93a618243"><svg
+  class="w-8 h-8 text-black fill-current"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 448 512">
+  <path
+    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+  ></path>
+</svg></a>
+<a href="#"><svg
+  class="w-8 h-8 text-black fill-current"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 496 512">
+  <path
+    d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"
+  ></path>
+</svg></a>
+<a href="https://wa.link/zmouoc7"><svg
+  class="w-8 h-8 text-black fill-current"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 448 512">
+  <path
+    d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+  ></path>
+</svg></a>
+<a href="https://github.com/Goody4444"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
+
+</path></svg></a>
+<a href="https://www.instagram.com/goody_the_dev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
+</a>
+  </div>
+
+   <!-- main section -------------------------------------------------------------------------------->
+   <div class="main align-middle  text-center  m-auto ">
+    <h1 class="text-xl md:text-3xl lg:text-6xl text-black font-semibold mb-10">
+      HEY, I'M ELVIS
+    </h1>
+   <p class="text-base md:text-2xl lg:text-xl text-black font-200  mb-16 ">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+<a href="#projects"><button class="btn md:hover:scale-110 animate__animated capitalize text-sm md:text-xl lg:text-2xl">LET's TALK</button></a>
+</div>
+<!-- about me section ------------------------------------------------------ -->
+
+</section>
+<section id="about">
+  <div class="about-me-container"></div>
+<div class="about-me-img flex justify-center relative h-30">
+  <img class="" src="/images/cost-of-front-end-development.gif" alt="nerd">
+  </div>
+ <div class="about-me-text  flex justify-center align-middle m-auto bg-gray-300 hover:bg-red-700">
+  <div class="about-me   text-center  p-20 ">
+    
+    <h1  class=" text-3xl font-bold text-black">About Me</h1>
+  <h1 class="text-black text-sm mb-10 md:text-xl lg:text-2xl font-bold mb-13 pt-10">Hi, I’m Elvis. Nice to meet you.</h1>
+  <p  class="text-black   text-sm mb-5 md:text-xl lg:text-2xl  ">Since beginning my journey as a freelance dev over 1 year, I've done remote work for agencies,
+     consulted for startups,
+     and collaborated with talented people to create digital products for both business and consumer use.
+     I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time..</p>
+</div> 
+</div>
+</section>
+
+
+<section id="skills" >
+<div class="about__content-skills  w-3/6 h-3/5">
+  <h3 class="about__content-title text-center text-4xl  text-black p-10 font-semibold">My Skills</h3>
+  <img class="w-full" src="/images/website-designing.gif" alt="">
+  </section>
+
+<section id="projects" class="projects ">
+      <h3 class="about__content-title text-center text-2xl  md:text-2xl  lg:text-4xl  text-black p-20 font-semibold">Projects</h3>
+      <p class="heading-sec__sub text-center text-sm md:text-xl  lg:text-2xl font-bold mb-20">
+        Here you will find some of the personal and clients projects that I
+        created with each project containing its own case study
+      </p>
+    </div>
+    <div class="projects__content">
+      <div class="projects__row flex justify-center align-middle m-auto">
+        <div class=" w-3/6 md:w-3/5 lg:w-3/6">
+          <img src="/images/Macbook-PNG-Photos.png" alt="Software Screenshot" class="" loading="lazy">
+        </div>
+        <div class="projects__row-content align-middle m-auto ">
+          <h3 class="projects__row-content-title  text-black font-semibold text-3xl mb-10 ">Yubter</h3>
+          <p class="projects__row-content-desc mb-10 md:text-gray-300 text-lg  ">
+            Yubter is a platform that I created where people can join the
+            community of their favorite youtube channels and can be part of
+            the conversation.
+          </p>
+          <button  class=" btn0  text-sm lg:text-2xl mb-20" ><a href="#">case study</a></button>
+          </button>
+            </div>
+      </div>
+      <div class="projects__content">
+        <div class="projects__row flex justify-center align-middle m-auto">
+          <div class=" w-3/6 md:w-3/5 lg:w-3/6">
+            <img src="/images/Macbook-PNG-Photos.png" alt="Software Screenshot" class="" loading="lazy">
+          </div>
+          <div class="projects__row-content align-middle m-auto ">
+            <h3 class="projects__row-content-title  text-black font-semibold text-3xl mb-10 ">Yubter</h3>
+            <p class="projects__row-content-desc mb-10 md:text-gray-300 text-lg  ">
+              Yubter is a platform that I created where people can join the
+              community of their favorite youtube channels and can be part of
+              the conversation.
+            </p>
+            <button  class=" btn0 text-sm md:text-lg lg:text-2xl mb-20" ><a href="#">case study</a></button>
+            </button>
+              </div>
+        </div>
+      
+        <div class="projects__content">
+          <div class="projects__row flex justify-center align-middle m-auto">
+            <div class=" w-3/6 md:w-3/5 lg:w-3/6">
+              <img src="/images/Macbook-PNG-Photos.png" alt="Software Screenshot" class="" loading="lazy">
+            </div>
+            <div class="projects__row-content align-middle m-auto ">
+              <h3 class="projects__row-content-title  text-black font-semibold text-3xl mb-10 ">Yubter</h3>
+              <p class="projects__row-content-desc mb-10 md:text-gray-300 text-lg  ">
+                Yubter is a platform that I created where people can join the
+                community of their favorite youtube channels and can be part of
+                the conversation.
+              </p>
+              <button  class=" btn0 text-sm md:text-lg lg:text-2xl mb-20" ><a href="#">case study</a></button>
+              </button>
+                </div>
+          </div>
+          <div class="projects__content">
+            <div class="projects__row flex justify-center align-middle m-auto">
+              <div class=" w-3/6 md:w-3/5 lg:w-3/6">
+                <img src="/images/Macbook-PNG-Photos.png" alt="Software Screenshot" class="" loading="lazy">
+              </div>
+              <div class="projects__row-content align-middle m-auto ">
+                <h3 class="projects__row-content-title  text-black font-semibold text-3xl mb-10 ">Yubter</h3>
+                <p class="projects__row-content-desc mb-10 md:text-gray-300 text-lg  ">
+                  Yubter is a platform that I created where people can join the
+                  community of their favorite youtube channels and can be part of
+                  the conversation.
+                </p>
+                <button  class=" btn0 text-sm md:text-lg lg:text-2xl mb-20" ><a href="#">case study</a></button>
+                </button>
+                  </div>
+            </div>
+            <div class="projects__content">
+              <div class="projects__row flex justify-center align-middle m-auto">
+                <div class=" w-3/6 md:w-3/5 lg:w-3/6">
+                  <img src="/images/Macbook-PNG-Photos.png" alt="Software Screenshot" class="" loading="lazy">
+                </div>
+                <div class="projects__row-content align-middle m-auto ">
+                  <h3 class="projects__row-content-title  text-black font-semibold text-3xl mb-10 ">Yubter</h3>
+                  <p class="projects__row-content-desc mb-10 md:text-gray-300 text-lg  ">
+                    Yubter is a platform that I created where people can join the
+                    community of their favorite youtube channels and can be part of
+                    the conversation.
+                  </p>
+                  <button  class=" btn0 text-sm md:text-lg lg:text-2xl" ><a href="#">case study</a></button>
+                  </button>
+                    </div>
+              </div>
+             
+</section>
+
+<section id="contact" class="contact__form-container p-20">
+ <div class="contact-content ">
+  <section id="contact" class="text-center align-middle m-auto ">
+    <h1 class="text-xl md:text-3xl lg:text-4xl pt-5 mb-20 font-semibold">CONTACT</h1>
+  </div>
+    <div class="contact-hello text-center align-middle m-auto  ">
+    <h2 class="text-xl md:text-2xl lg:text-3xl p-10">What’s Next?</h2>
+    <h2 class="title text-sm md:text-2xl lg:text-2xl ">Get In Touch</h2>
+    <p class="  text-sm md:text-xl lg:text-xl p-5 mb-20 ">Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+   <button> <a class=" btn1 email-link   text-xl md:text-2xl lg:text-3xl btn p-2" href="edehelvis8@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a></section>
+   </button>
+  </div>
+</div>
+</section>
+
+<footer class="section is-primary is-small has-text-centered ">
+   <div class="columns"> 
+        <h1 class="title is-size-4-touch has-text-weight-normal text-center  text-sm md:text-xl lg:text-2xl pt-10">Living, learning, &amp; leveling up one day at a time.</h1>
+    <div class="social-media flex mb-20 justify-center m-auto  text-center   gap-5 mt-20 ">
+      <a  href="https://www.facebook.com/flykhaly"> <svg 
+        class=" w-9 h-9   text-blue-500  fill-current flex"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24">
+        <path
+          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+        />
+        
+      </svg></a>
+      <a href="https://wa.link/zmouoc7"><svg
+        class=" w-9 h-9   text-green-400 fill-current"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512">
+        <path
+          d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+        ></path>
+      </svg></a>
+      <a class="" href="#"><svg  xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24">
+        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
+      
+      </path></svg></a>
+   <a href="#"> <svg
+    class=" w-9 h-9   text-blue-500 fill-current"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24">
+    <path
+      d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+    />
+  </svg></a>
+
+  <a href="https://www.linkedin.com/in/elvis-edeh-93a618243"><svg
+    class=" w-9 h-9   text-blue-500 fill-current"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+    <path
+      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+    ></path>
+  </svg></a>
+<a href="https://www.instagram.com/goody_the_dev">    <svg   class="lg:w-10 lg:h-10 md:w-10 md:h-10 w-10 h-10 fill-current"style="color: red" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" fill="red"></path> </svg>
+</a>
+  <a href="#"><svg
+    class=" w-9 h-9  text-blue-500 fill-current"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 496 512">
+    <path
+      d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"
+    ></path>
+  </svg></a>
+  
+  </div>
+    <p class="text-center text-xl md:text-2xl lg:text-2xl ">MADE BY GOODY</p>
+</footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
