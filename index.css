@@ -65,14 +65,13 @@ html {
   }
 
 
-  .contact__form-container {
-    background-image: url(/images/UlzVYIsIW0roxpS6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 80vh;
-    
+  #about {
+    background-color: gray;
+  }
+
+
+  #projects {
+    background-color: gray;
   }
 
  
